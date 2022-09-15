@@ -54,7 +54,7 @@ data = {"weather":{"value":wea,"color":get_random_color()},
         "highest":{"value":highest,"color":get_random_color()},
         "lowest":{"value":lowest,"color":get_random_color()},
         "love_days":{"value":get_count(),"color":get_random_color()},
-        "birthday_left":{"value":get_birthday()},
+        "birthday_left":{"value":get_birthday(),"color":get_random_color()},
         "words":{"value":get_words(),"color":get_random_color()}}
 res = wm.send_template(user1_id, template_id, data)
 res = wm.send_template(user2_id, template_id, data)
